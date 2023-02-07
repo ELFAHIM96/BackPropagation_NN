@@ -1,4 +1,5 @@
 
+## Exemple:
 
 ```python
 # inputs x1, x2
@@ -22,4 +23,7 @@ o = n.relu(); o.label = 'o'
 o.backward()
 draw_dot(o)
 ```
+## Result:
+![graph_grad](https://user-images.githubusercontent.com/65721811/217382502-35629691-3e07-432d-a6fb-e0b291588c8d.png)
+
 
